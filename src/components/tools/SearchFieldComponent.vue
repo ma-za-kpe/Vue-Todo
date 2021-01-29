@@ -10,7 +10,7 @@
     clearable
     solo
     dense
-    lightF
+    light
     hide-details
     label="Search term"
     placeholder="Drink Tequila at 5am with the girls."
