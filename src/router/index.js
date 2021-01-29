@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Todo from '../views/Todo.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Todo',
+    component: Todo
   },
   {
     path: '/about',
@@ -22,6 +22,11 @@ const routes = [
 
 const router = new VueRouter({
   routes
+})
+
+router.beforeEach((to, from, next) => {
+  document.title = `${ process.env.VUE_APP_TITLE } - ${to.name}`
+  next()
 })
 
 export default router
