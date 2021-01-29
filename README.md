@@ -17,7 +17,7 @@
 
 ## Course
 - By Danny Connell => Indie App Developer & Instructor
-- [vuetify-vuejs-vuex](https://www.udemy.com/course/vuetify-vuejs-vuex) - Open and test it.
+- [vuetify-vuejs-vuex](https://www.udemy.com/course/vuetify-vuejs-vuex) - Enjoy the learning.
 
 ## Contact
 If you need any help, you can connect with me. Im also open to build your ideas.
